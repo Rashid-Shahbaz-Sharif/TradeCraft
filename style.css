@@ -173,7 +173,7 @@ header .site-container .inner-container .contact {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: url(/images/TC_home_hero_cover.png) no-repeat center center;
+  background: url(./images/TC_home_hero_cover.png) no-repeat center center;
   background-size: cover;
   z-index: 0;
   opacity: 0.45;
@@ -329,13 +329,13 @@ header .site-container .inner-container .contact {
 }
 
 .brands_section .slick-prev:before {
-  content: url(/images/Left_arrow.png) !important;
+  content: url(./images/Left_arrow.png) !important;
   position: absolute;
   left: 0px;
 }
 
 .brands_section .slick-next:before {
-  content: url(/images/right_arrow.png) !important;
+  content: url(./images/right_arrow.png) !important;
   position: absolute;
   right: 0px;
 }
@@ -489,7 +489,7 @@ header .site-container .inner-container .contact {
 }
 
 .reviews-section .slick-prev:before {
-  content: url(/images/Left_arrow_.png) !important;
+  content: url(./images/Left_arrow_.png) !important;
   position: absolute;
   left: 0px;
 }
@@ -500,7 +500,7 @@ header .site-container .inner-container .contact {
 }
 
 .reviews-section .slick-next:before {
-  content: url(/images/right_arrow_.png) !important;
+  content: url(./images/right_arrow_.png) !important;
   position: absolute;
   left: 0px;
 }
@@ -748,8 +748,13 @@ header .site-container .inner-container .contact {
   border: 1px solid var(--grey, #a6a6a6);
   background: #fff;
 }
-.newsletter-section .inner-container .content .form .form-body input#email:active{
-    text-align: center;
+.newsletter-section
+  .inner-container
+  .content
+  .form
+  .form-body
+  input#email:active {
+  text-align: center;
 }
 
 .newsletter-section
